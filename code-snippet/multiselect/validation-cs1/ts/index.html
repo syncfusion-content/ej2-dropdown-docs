@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Essential JS 2 MultiSelect</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Typescript UI Controls" />
+    <meta name="author" content="Syncfusion" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-base/styles/material.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-inputs/styles/material.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-dropdowns/styles/material.css" rel="stylesheet" />
+    <link href="https://cdn.syncfusion.com/ej2/20.3.56/ej2-buttons/styles/material.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.38/system.js"></script>
+    <script src="systemjs.config.js"></script>
+</head>
+
+<body>
+    <div id='loader'>LOADING....</div>
+    <div id='container' style="margin:0 auto; width:250px;">
+      <div class="col-lg-12 control-section">
+    <div class="content-wrapper" style="margin-bottom: 25px;">
+        <div class="form-title"><span>Add Customer Details</span></div>
+        <form id="formId" class="form-horizontal" novalidate="">
+            <div class="form-group">
+                <div class="e-float-input">
+                <select id="default"  name="default"> 
+                <option value="Game1">American Football</option>
+                <option value="Game2">Badminton</option>
+                <option value="Game3">Basketball</option>
+                <option value="Game4">Cricket</option>
+                <option value="Game5">Football</option>
+                <option value="Game6">Golf</option>
+                <option value="Game7">Hockey</option>
+                <option value="Game8">Rugby</option>
+                <option value="Game9">Snooker</option>
+                <option value="Game10">Tennis</option>
+            </select>
+                </div>
+                <div id="userError"></div>
+            </div>
+            <div class="row">
+                <div style="width: 320px;margin:0px auto;height: 100px;padding-top: 25px;">
+                    <div style="display: inline-block;">
+                        <button id="validateSubmit" class="samplebtn e-control e-btn e-primary" type="submit" style="height:40px;width: 150px;" data-ripple="true">Submit</button>
+                    </div>
+                    <div style="float: right;">
+                        <button id="resetbtn" class="samplebtn e-control e-btn" type="reset" style="height:40px;width: 150px;" data-ripple="true">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    </div>
+</body>
+
+</html>
