@@ -19,25 +19,25 @@ The following example demonstrate how to add item in between in DropDownList.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/dropdownlist/how-to/add_item-cs1/index.ts %}
+{% include code-snippet/dropdownlist/how-to/add-item-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/dropdownlist/how-to/add_item-cs1/index.html %}
+{% include code-snippet/dropdownlist/how-to/add-item-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/add_item-cs1" %}
+{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/add-item-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/dropdownlist/how-to/add_item-cs1/index.js %}
+{% include code-snippet/dropdownlist/how-to/add-item-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/dropdownlist/how-to/add_item-cs1/index.html %}
+{% include code-snippet/dropdownlist/how-to/add-item-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/add_item-cs1" %}
+{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/add-item-cs1" %}
 {% endif %}
