@@ -17,25 +17,25 @@ The following example demonstrate about how to remove an item from DropDownList.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/dropdownlist/how-to/remove_item-cs1/index.ts %}
+{% include code-snippet/dropdownlist/how-to/remove-item-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/dropdownlist/how-to/remove_item-cs1/index.html %}
+{% include code-snippet/dropdownlist/how-to/remove-item-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/remove_item-cs1" %}
+{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/remove-item-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/dropdownlist/how-to/remove_item-cs1/index.js %}
+{% include code-snippet/dropdownlist/how-to/remove-item-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/dropdownlist/how-to/remove_item-cs1/index.html %}
+{% include code-snippet/dropdownlist/how-to/remove-item-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/remove_item-cs1" %}
+{% previewsample "page.domainurl/code-snippet/dropdownlist/how-to/remove-item-cs1" %}
 {% endif %}
