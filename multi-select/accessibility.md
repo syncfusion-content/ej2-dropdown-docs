@@ -64,9 +64,6 @@ You can use the following key shortcuts to access the MultiSelect without interr
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/multiselect/getting-started-cs1/index.js %}
-{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/multiselect/getting-started-cs1/index.html %}
 {% endhighlight %}
