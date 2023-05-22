@@ -1,9 +1,37 @@
-<html><head><script src="https://cdn.syncfusion.com/ej2/20.4.38/dist/ej2.min.js" type="text/javascript"></script>
-</head><body><script>
-var ele = document.getElementById('container');
-if(ele) {
-  ele.style.visibility = "visible";
-}   
+
+<!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+                
+        <title>Essential JS 2</title>
+         <!-- Essential JS 2 Mention's dependent bootstrap5 theme -->
+        <link href="//cdn.syncfusion.com/ej2/21.2.3/ej2-base/styles/bootstrap5.css" rel="stylesheet" type="text/css"/>
+        <link href="//cdn.syncfusion.com/ej2/21.2.3/ej2-inputs/styles/material.css" rel="stylesheet" type="text/css"/>
+        <link href="//cdn.syncfusion.com/ej2/21.2.3/ej2-dropdowns/styles/bootstrap5.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Essential JS 2 all script -->
+        <!-- <script src="https://cdn.syncfusion.com/ej2/21.2.3/dist/ej2.min.js" type="text/javascript"></script> -->
+
+        <!-- Essential JS 2 Mention's dependent scripts -->
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-inputs/dist/global/ej2-inputs.min.js" type="text/javascript"></script>
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-buttons/dist/global/ej2-buttons.min.js" type="text/javascript"></script>
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-lists/dist/global/ej2-lists.min.js" type="text/javascript"></script>
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
+        <script src="//cdn.syncfusion.com/ej2/21.2.3/ej2-dropdowns/dist/global/ej2-dropdowns.min.js" type="text/javascript"></script>
+   </head>
+   <body>
+      <!-- Add the HTML <div> element  -->
+      <div id="mentionElement" style="min-height: 100px; border: 1px solid #D7D7D7; border-radius: 4px; padding: 8px; font-size: 14px; width: 600px;"></div>
+      <script>
+           var userData = ['Selma Rose', 'Garth', 'Robert', 'William', 'Joseph'];
+           // initialize Mention control
+           var mentionObj = new ej.dropdowns.Mention({
+                dataSource: userData
+           });
+           // Render initialized Mention.
+           mentionObj.appendTo('#mentionElement');
       </script>
-<script src="index.js" type="text/javascript"></script>
-</body></html>
+   </body>
+  </html>
