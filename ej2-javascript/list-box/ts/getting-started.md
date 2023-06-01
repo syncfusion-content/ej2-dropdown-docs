@@ -79,7 +79,7 @@ Add the HTML input element that needs to be initialized as a ListBox in `index.h
 
 `[src/index.html]`
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

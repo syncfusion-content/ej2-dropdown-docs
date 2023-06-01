@@ -101,7 +101,7 @@ Add the HTML div tag with the `id` attribute as `mentionElement` to your `index.
 
 `[src/index.html]`
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

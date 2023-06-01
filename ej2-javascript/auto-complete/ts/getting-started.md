@@ -53,7 +53,7 @@ Add the HTML input element which needs to be initialized as AutoComplete in `in
 
 `[src/index.html]`
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

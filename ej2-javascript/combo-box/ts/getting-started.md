@@ -48,7 +48,7 @@ Add the HTML input element that needs to be initialized as ComboBox in `index.ht
 
 `[src/index.html]`
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

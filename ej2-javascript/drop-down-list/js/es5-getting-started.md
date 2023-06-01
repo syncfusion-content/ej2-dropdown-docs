@@ -56,7 +56,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 **Step 4:** Create a HTML page (index.html) in `myapp` location and add the Essentials JS 2 script and style references.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
@@ -86,7 +86,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 **Step 5:** Now, add the `input` element and initiate the `Essential JS 2 DropDownList` component in the `index.html` by using following code
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
@@ -156,7 +156,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 After initialization, populate the DropDownList with data using the [dataSource](../api/drop-down-list/#datasource) &nbsp;property. Here, an array of string values is passed to the DropDownList component.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>

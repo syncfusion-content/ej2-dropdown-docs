@@ -56,7 +56,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 **Step 4:** Create a HTML page (index.html) in `myapp` location and add the Essentials JS 2 script and style references.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
@@ -88,7 +88,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 The below html code example shows the dependency of autoComplete.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>
@@ -160,7 +160,7 @@ After initialization, populate the AutoComplete with data using the
 [`dataSource`](../api/auto-complete/#datasource) property.
 Here, an array of string values is passed to the AutoComplete component.
 
-```
+```html
 <!DOCTYPE html>
   <html xmlns="http://www.w3.org/1999/xhtml">
        <head>

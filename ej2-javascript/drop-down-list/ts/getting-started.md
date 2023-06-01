@@ -48,7 +48,7 @@ Add the HTML input element that needs to be initialized as a DropDownList in `in
 
 `[src/index.html]`
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 
