@@ -42,7 +42,7 @@ npm install
 
 ## Initialize the MultiSelect
 
-The MultiSelect can be initialized through three different tags as described in the [Initialize Tags](/multi-select/tags/).
+The MultiSelect can be initialized through three different tags as described in the [Initialize Tags](./multi-select/tags/).
 
 Add the HTML input element that needs to be initialized as a MultiSelect in `index.html`.
 
@@ -97,7 +97,7 @@ msObject.appendTo('#select');
 
 ## Binding data source
 
-After initialization, populate the MultiSelect with data using the [dataSource](/api/multi-select/#datasource) &nbsp;property. Here, an array of string values is passed to the MultiSelect component.
+After initialization, populate the MultiSelect with data using the [dataSource](https://ej2.syncfusion.com/documentation/api/multi-select#datasource) &nbsp;property. Here, an array of string values is passed to the MultiSelect component.
 
 ```ts
 import { MultiSelect } from '@syncfusion/ej2-dropdowns';
@@ -141,7 +141,7 @@ The following example illustrates the output in your browser.
 
 By default, the width of the popup list automatically adjusts according to the MultiSelect input element's width, and the height auto adjust's according to the height of the popup list items.
 
-The height and width of the popup list can also be customized using the [popupHeight](/api/multi-select/#popupheight) &nbsp;and [popupWidth](/api/multi-select/#popupwidth) properties respectively.
+The height and width of the popup list can also be customized using the [popupHeight](https://ej2.syncfusion.com/documentation/api/multi-select#popupheight) &nbsp;and [popupWidth](https://ej2.syncfusion.com/documentation/api/multi-select#popupwidth) properties respectively.
 
 In the following sample, popup list's width and height are configured.
 

@@ -22,10 +22,10 @@ The AutoComplete component provides the matched suggestion list when type into t
 * **[Sorting](../api/auto-complete/#sortorder)** - Supports sorting of list
 items in an alphabetical order (either ascending or descending).
 
-* **[Highlight search](/auto-complete/how-to/autofill/#custom-highlight-search)** - Supports highlighting the typed
+* **[Highlight search](../auto-complete/how-to/custom-search)** - Supports highlighting the typed
 text in the suggestion list.
 
-* **[Templates](./templates)** - Allows customizing the list item, header, footer,
+* **[Templates](../templates)** - Allows customizing the list item, header, footer,
 category group header, no records and action failure
 content.
 

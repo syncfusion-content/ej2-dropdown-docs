@@ -11,11 +11,11 @@ domainurl: ##DomainURL##
 
 # Templates in ##Platform_Name## Auto complete control
 
-The AutoComplete has been provided with several options to customize each list items, group title, header and footer elements. It uses the Essential JS 2 [`Template engine`](../../common/template-engine) to compile and render the elements properly.
+The AutoComplete has been provided with several options to customize each list items, group title, header and footer elements. It uses the Essential JS 2 [`Template engine`](../documentation/common/template-engine) to compile and render the elements properly.
 
 ## Item template
 
-The content of each list item within the AutoComplete can be customized with the help of [`itemTemplate`](../api/auto-complete#itemtemplate) property.
+The content of each list item within the AutoComplete can be customized with the help of [`itemTemplate`](https://ej2.syncfusion.com/documentation/api/auto-complete/#itemtemplate) property.
 
 In the following sample, each list item is split into two columns to display relevant data's.
 

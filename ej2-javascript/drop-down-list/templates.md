@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Templates in ##Platform_Name## Drop down list control
 
-The DropDownList has been provided with several options to customize each list item, group title, selected value, header, and footer elements. It uses the Essential JS 2 [Template engine](../../common/template-engine) to compile and render the elements properly.
+The DropDownList has been provided with several options to customize each list item, group title, selected value, header, and footer elements. It uses the Essential JS 2 [Template engine](../documentation/common/template-engine) to compile and render the elements properly.
 
 ## Item template
 
