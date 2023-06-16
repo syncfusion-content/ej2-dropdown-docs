@@ -42,7 +42,7 @@ npm install
 
 ## Initialize the MultiSelect
 
-The MultiSelect can be initialized through three different tags as described in the [Initialize Tags](./multi-select/tags/).
+The MultiSelect can be initialized through three different tags as described in the [Initialize Tags](../multi-select/tags/).
 
 Add the HTML input element that needs to be initialized as a MultiSelect in `index.html`.
 
