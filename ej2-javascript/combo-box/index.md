@@ -17,7 +17,7 @@ The ComboBox component allows the user to type a value or choose an option from 
 
 * **[Data binding](./data-binding)** - Allows binding and accessing the list of items from local or server-side data source.
 
-* **[Custom values](./getting-started/#custom-values)** - Allows setting user-defined values that is not in the popup list.
+* **[Custom values](https://ej2.syncfusion.com/javascript/documentation/combo-box/es5-getting-started/#custom-values)** - Allows setting user-defined values that is not in the popup list.
 
 * **[Grouping](./grouping)** - Supports grouping of logically related items under a single or specific category.
 
