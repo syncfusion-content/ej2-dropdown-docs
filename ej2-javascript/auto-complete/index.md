@@ -25,7 +25,7 @@ items in an alphabetical order (either ascending or descending).
 * **[Highlight search](../auto-complete/how-to/custom-search)** - Supports highlighting the typed
 text in the suggestion list.
 
-* **[Templates](../templates)** - Allows customizing the list item, header, footer,
+* **[Templates](../auto-complete/templates)** - Allows customizing the list item, header, footer,
 category group header, no records and action failure
 content.
 

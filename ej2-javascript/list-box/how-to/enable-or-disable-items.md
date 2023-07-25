@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Enable or disable items in ##Platform_Name## List box control
 
-To enable or disable items in the list box, [`enableItems`](../api/list-box/#enableitems) method can be used. In the following example, the `Bugatti Veyron Super Sport` and `SSC Ultimate Aero` items are disabled by default and by clicking `Enable Items` buttons, the disabled items will be enabled.
+To enable or disable items in the list box, [`enableItems`](../../api/list-box/#enableitems) method can be used. In the following example, the `Bugatti Veyron Super Sport` and `SSC Ultimate Aero` items are disabled by default and by clicking `Enable Items` buttons, the disabled items will be enabled.
 
 {% if page.publishingplatform == "typescript" %}
 

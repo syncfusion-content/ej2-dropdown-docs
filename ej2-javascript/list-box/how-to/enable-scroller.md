@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Enable scroller in ##Platform_Name## List box control
 
-The ListBox supports scrolling and it can be achieved by restricting the height of the list box using [`height`](../api/list-box/#height) property.
+The ListBox supports scrolling and it can be achieved by restricting the height of the list box using [`height`](../../api/list-box/#height) property.
 
 In the following sample, `height` of the list box is restricted to `290px`.
 

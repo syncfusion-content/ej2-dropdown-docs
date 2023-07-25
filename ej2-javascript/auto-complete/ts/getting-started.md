@@ -166,7 +166,7 @@ is about to be submitted.
 
 By default, suggestion list width automatically adjusts according to the AutoComplete input element's width, and the height of the suggestion list has '300px'.
 
-The height and width of the popup list can also be customized using the [`popupHeight`](/api/auto-complete/#popupheight) and [`popupWidth`](/api/auto-complete/#popupwidth) property respectively.
+The height and width of the popup list can also be customized using the [`popupHeight`](https://ej2.syncfusion.com/documentation/api/auto-complete/#popupheight) and [`popupWidth`](https://ej2.syncfusion.com/documentation/api/auto-complete/#popupwidth) property respectively.
 
 In the following sample, suggestion list's width and height are configured.
 
