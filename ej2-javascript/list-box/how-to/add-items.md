@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Add items in ##Platform_Name## List box control
 
-To add an item or multiple items, [`addItems`](../api/list-box/#additems) method can be used. In the following example, the `Bugatti Veyron Super Sport` and `SSC Ultimate Aero` items will be added while clicking `Add Items` button.
+To add an item or multiple items, [`addItems`](../../api/list-box/#additems) method can be used. In the following example, the `Bugatti Veyron Super Sport` and `SSC Ultimate Aero` items will be added while clicking `Add Items` button.
 
 {% if page.publishingplatform == "typescript" %}
 
