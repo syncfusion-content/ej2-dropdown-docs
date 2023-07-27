@@ -154,7 +154,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 ## Binding data source
 
-After initialization, populate the DropDownList with data using the [dataSource](../api/drop-down-list/#datasource) &nbsp;property. Here, an array of string values is passed to the DropDownList component.
+After initialization, populate the DropDownList with data using the [dataSource](https://helpej2.syncfusion.com/javascript/documentation/api/drop-down-list/#datasource) &nbsp;property. Here, an array of string values is passed to the DropDownList component.
 
 ```html
 <!DOCTYPE html>
@@ -198,7 +198,7 @@ After initialization, populate the DropDownList with data using the [dataSource]
 
 By default, the width of the popup list automatically adjusts according to the DropDownList input element's width, and the height of the popup list has '300px'.
 
-The height and width of the popup list can also be customized using the [popupHeight](../api/drop-down-list/#popupheight) &nbsp;and [popupWidth](../api/drop-down-list/#popupwidth) properties respectively.
+The height and width of the popup list can also be customized using the [popupHeight](https://helpej2.syncfusion.com/javascript/documentation/api/drop-down-list/#popupheight) &nbsp;and [popupWidth](https://helpej2.syncfusion.com/javascript/documentation/api/drop-down-list/#popupwidth) properties respectively.
 
 In the following sample, popup list's width and height are configured.
 
@@ -212,5 +212,5 @@ In the following sample, popup list's width and height are configured.
 
 ## See Also
 
-* [How to bind the data](./data-binding)
-* [How to initialize the control using different tags](./tags)
+* [How to bind the data](https://helpej2.syncfusion.com/javascript/documentation/drop-down-list/data-binding)
+* [How to initialize the control using different tags](https://helpej2.syncfusion.com/javascript/documentation/drop-down-list/tagss)

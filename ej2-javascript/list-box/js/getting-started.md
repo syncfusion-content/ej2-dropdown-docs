@@ -160,5 +160,5 @@ After initialization, populate the ListBox with data using the `dataSource` prop
 
 ## See Also
 
-* [How to bind data to the list box](./data-binding#data-binding)
-* [How to initialize list box using different tags](./data-binding#html-element)
+* [How to bind data to the list box](https://helpej2.syncfusion.com/javascript/documentation/list-box/data-binding#data-binding)
+* [How to initialize list box using different tags](https://helpej2.syncfusion.com/javascript/documentation/list-box/data-binding#html-element)
