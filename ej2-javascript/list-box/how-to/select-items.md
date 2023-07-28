@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Select items in ##Platform_Name## List box control
 
-In the following example, `Bugatti Chiron` is selected using [`selectItems`](../api/list-box/#selectitems) method.
+In the following example, `Bugatti Chiron` is selected using [`selectItems`](../../api/list-box/#selectitems) method.
 
 {% if page.publishingplatform == "typescript" %}
 

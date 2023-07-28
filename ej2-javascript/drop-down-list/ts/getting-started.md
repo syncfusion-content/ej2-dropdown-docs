@@ -42,7 +42,7 @@ npm install
 
 ## Initialize the DropDownList
 
-The DropDownList can be initialized through three different tags as described in the [Initialize Tags](./drop-down-list/tags/).
+The DropDownList can be initialized through three different tags as described in the [Initialize Tags](../tags).
 
 Add the HTML input element that needs to be initialized as a DropDownList in `index.html`.
 
