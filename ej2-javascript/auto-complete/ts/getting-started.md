@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Getting started in ##Platform_Name## Auto complete control
 
-This section explains how to create a simple **AutoComplete** component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart) seed repository.
+This section explains how to create a simple **AutoComplete** component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart.git) seed repository.
 
 ## Dependencies
 
@@ -31,11 +31,11 @@ The following list of dependencies are required to use the AutoComplete componen
 ## Set up of the development environment
 
 To get started with the AutoComplete component, you have to clone the Essential JS 2
-[`quickstart`](https://github.com/syncfusion/ej2-quickstart) project and install the npm packages by using the following commands.
+[`quickstart`](https://github.com/syncfusion/ej2-quickstart.git) project and install the npm packages by using the following commands.
 
 ```
 
-git clone https://github.com/syncfusion/ej2-quickstart quickstart
+git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
 
 cd quickstart
 
@@ -43,7 +43,7 @@ npm install
 
 ```
 
->The [project](https://github.com/syncfusion/ej2-quickstart) is preconfigured with common settings (`src/styles/styles.css`, `system.config.js`) to start all the Essential JS 2 components.
+>The [project](https://github.com/syncfusion/ej2-quickstart.git) is preconfigured with common settings (`src/styles/styles.css`, `system.config.js`) to start all the Essential JS 2 components.
 
 ## Initialize the AutoComplete
 
@@ -103,7 +103,7 @@ atcObject.appendTo('#atcelement');
 
 ## Binding data source
 
-After initialization, populate the AutoComplete with data using the [`dataSource`](https://helpej2.syncfusion.com/documentation/api/auto-complete/#datasource) property. Here, an array of string values is passed to the AutoComplete component.
+After initialization, populate the AutoComplete with data using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/auto-complete/#datasource) property. Here, an array of string values is passed to the AutoComplete component.
 
 ```ts
 
@@ -148,7 +148,7 @@ The following example illustrates the output in your browser.
 
 ## Custom values
 
-The AutoComplete allows the user to give input as custom value which is not required to present in predefined set of values. By default, this support is enabled by [`allowCustom`](https://helpej2.syncfusion.com/documentation/api/auto-complete/#allowcustom) property. The custom value will be sent to post back handler when a form
+The AutoComplete allows the user to give input as custom value which is not required to present in predefined set of values. By default, this support is enabled by [`allowCustom`](https://ej2.syncfusion.com/documentation/api/auto-complete/#allowcustom) property. The custom value will be sent to post back handler when a form
 is about to be submitted.
 
 {% tabs %}
@@ -166,7 +166,7 @@ is about to be submitted.
 
 By default, suggestion list width automatically adjusts according to the AutoComplete input element's width, and the height of the suggestion list has '300px'.
 
-The height and width of the popup list can also be customized using the [`popupHeight`](https://helpej2.syncfusion.com/documentation/api/auto-complete/#popupheight) and [`popupWidth`](https://helpej2.syncfusion.com/documentation/api/auto-complete/#popupwidthh) property respectively.
+The height and width of the popup list can also be customized using the [`popupHeight`](https://ej2.syncfusion.com/documentation/api/auto-complete/#popupheight) and [`popupWidth`](https://ej2.syncfusion.com/documentation/api/auto-complete/#popupwidthh) property respectively.
 
 In the following sample, suggestion list's width and height are configured.
 
@@ -183,4 +183,4 @@ In the following sample, suggestion list's width and height are configured.
 
 ## See Also
 
-* [How to bind the data](https://helpej2.syncfusion.com/documentation/auto-complete/data-binding)
+* [How to bind the data](https://ej2.syncfusion.com/documentation/auto-complete/data-binding)

@@ -42,7 +42,7 @@ npm install
 
 ## Initialize the ComboBox
 
-The ComboBox can be initialized through three different tags which described in [Initialize Tags](https://helpej2.syncfusion.com/documentation/combo-box/tags).
+The ComboBox can be initialized through three different tags which described in [Initialize Tags](https://ej2.syncfusion.com/documentation/combo-box/tags).
 
 Add the HTML input element that needs to be initialized as ComboBox in `index.html`.
 
@@ -173,5 +173,5 @@ In the following sample, popup list's width and height are configured.
 
 ## See Also
 
-* [How to bind the data](https://helpej2.syncfusion.com/documentation/combo-box/data-binding)
-* [How to initialize the control using different tags](https://helpej2.syncfusion.com/documentation/combo-box/tags)
+* [How to bind the data](https://ej2.syncfusion.com/documentation/combo-box/data-binding)
+* [How to initialize the control using different tags](https://ej2.syncfusion.com/documentation/combo-box/tags)
