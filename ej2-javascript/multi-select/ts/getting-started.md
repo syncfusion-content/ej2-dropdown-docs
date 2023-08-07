@@ -141,7 +141,7 @@ The following example illustrates the output in your browser.
 
 By default, the width of the popup list automatically adjusts according to the MultiSelect input element's width, and the height auto adjust's according to the height of the popup list items.
 
-The height and width of the popup list can also be customized using the [popupHeight](https://ej2.syncfusion.com/documentation/api/multi-select#popupheight) &nbsp;and [popupWidth](https://ej2.syncfusion.com/documentation/api/multi-select#popupwidth) properties respectively.
+The height and width of the popup list can also be customized using the [popupHeight](https://ej2.syncfusion.com/documentation/api/multi-select/#popupheight) &nbsp;and [popupWidth](https://ej2.syncfusion.com/documentation/api/multi-select/#popupwidth) properties respectively.
 
 In the following sample, popup list's width and height are configured.
 
@@ -158,5 +158,5 @@ In the following sample, popup list's width and height are configured.
 
 ## See Also
 
-* [How to bind the data](./data-binding)
-* [How to initialize the control using different tags](./tags)
+* [How to bind the data](https://ej2.syncfusion.com/documentation/multi-select/data-binding)
+* [How to initialize the control using different tags](https://ej2.syncfusion.com/documentation/multi-select/data-binding)

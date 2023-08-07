@@ -154,7 +154,7 @@ The Essential JS 2 JavaScript components can be initialized by using either of t
 
 ## Binding data source
 
-After initializing, populate the ComboBox with data using the [dataSource](../api/combo-box/#datasource) property. Here, an array of string values is passed to the ComboBox component.
+After initializing, populate the ComboBox with data using the [dataSource](https://ej2.syncfusion.com/javascript/documentation/api/combo-box/#datasource) property. Here, an array of string values is passed to the ComboBox component.
 
 ```html
 <!DOCTYPE html>
@@ -196,7 +196,7 @@ After initializing, populate the ComboBox with data using the [dataSource](../ap
 
 ## Custom values
 
-The ComboBox allows the user to give input as custom value which is not required to present in predefined set of values. By default, this support is enabled by [allowCustom](../api/combo-box/#allowcustom) property. In this case, both text field and value field considered as same.
+The ComboBox allows the user to give input as custom value which is not required to present in predefined set of values. By default, this support is enabled by [allowCustom](https://ej2.syncfusion.com/javascript/documentation/api/combo-box/#allowcustom) property. In this case, both text field and value field considered as same.
 The custom value will be sent to post back handler when a form is about to be submitted.
 
 {% tabs %}
@@ -211,7 +211,7 @@ The custom value will be sent to post back handler when a form is about to be su
 
 By default, the width of the popup list automatically adjusts according to the ComboBox input element's width, and the height of the popup list has '300px'.
 
-The height and width of the popup list can also be customized using the [popupHeight](../api/combo-box/#popupheight) &nbsp;and [popupWidth](../api/combo-box/#popupwidth) properties respectively.
+The height and width of the popup list can also be customized using the [popupHeight](https://ej2.syncfusion.com/javascript/documentation/api/combo-box/#popupheight) &nbsp;and [popupWidth](https://ej2.syncfusion.com/javascript/documentation/api/combo-box/#popupwidth) properties respectively.
 
 In the following sample, popup list's width and height are configured.
 
@@ -225,5 +225,5 @@ In the following sample, popup list's width and height are configured.
 
 ## See Also
 
-* [How to bind the data](./data-binding)
-* [How to initialize the control using different tags](./tags)
+* [How to bind the data](https://ej2.syncfusion.com/javascript/documentation/combo-box/data-binding)
+* [How to initialize the control using different tags](https://ej2.syncfusion.com/javascript/documentation/combo-box/data-binding)

@@ -151,7 +151,7 @@ mentionObject.appendTo('#mentionElement');
 
 ## Binding the data source
 
-After initialization, populate the Mention with data using the [dataSource](../api/mention/#datasource) property. Here, an array of string values is passed to the Mention control.
+After initialization, populate the Mention with data using the [dataSource](https://ej2.syncfusion.com/documentation/api/mention/#datasource) property. Here, an array of string values is passed to the Mention control.
 
 ```ts
 import { Mention } from '@syncfusion/ej2-dropdowns';
@@ -194,9 +194,9 @@ The following example, shows a basic Mention control.
 
 ## Display mention character
 
-By using the [showMentionChar](../api/mention/#showmentionchar) property, the text content can be displayed along with the mention character. You can customize the mention character by using the [mentionChar](../api/mention/#mentionchar) property in the Mention control.
+By using the [showMentionChar](https://ej2.syncfusion.com/documentation/api/mention/#showmentionchar) property, the text content can be displayed along with the mention character. You can customize the mention character by using the [mentionChar](https://ej2.syncfusion.com/documentation/api/mention/#mentionchar) property in the Mention control.
 
-> By default, the [mentionChar](../api/mention/#mentionchar) is `@` and the [showMentionChar](../api/mention/#showmentionchar) property is disabled.
+> By default, the [mentionChar](https://ej2.syncfusion.com/documentation/api/mention/#mentionchar) is `@` and the [showMentionChar](https://ej2.syncfusion.com/documentation/api/mention/#showmentionchar) property is disabled.
 
 The following example, displays the text content along with the mention character configured as `#`.
 

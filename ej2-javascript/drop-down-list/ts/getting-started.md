@@ -42,7 +42,7 @@ npm install
 
 ## Initialize the DropDownList
 
-The DropDownList can be initialized through three different tags as described in the [Initialize Tags](./drop-down-list/tags/).
+The DropDownList can be initialized through three different tags as described in the [Initialize Tags](https://ej2.syncfusion.com/documentation/drop-down-list/tags).
 
 Add the HTML input element that needs to be initialized as a DropDownList in `index.html`.
 
@@ -97,7 +97,7 @@ dropDownListObject.appendTo('#ddlelement');
 
 ## Binding data source
 
-After initialization, populate the DropDownList with data using the [dataSource](https://ej2.syncfusion.com/documentation/api/drop-down-list#datasource) &nbsp;property. Here, an array of string values is passed to the DropDownList component.
+After initialization, populate the DropDownList with data using the [dataSource](https://ej2.syncfusion.com/documentation/api/drop-down-list/#datasource) &nbsp;property. Here, an array of string values is passed to the DropDownList component.
 
 ```ts
 import { DropDownList } from '@syncfusion/ej2-dropdowns';
@@ -140,7 +140,7 @@ The following example illustrates the output in your browser.
 
 By default, the width of the popup list automatically adjusts according to the DropDownList input element's width, and the height of the popup list has '300px'.
 
-The height and width of the popup list can also be customized using the [popupHeight](https://ej2.syncfusion.com/documentation/api/drop-down-list#popupheight) &nbsp;and [popupWidth](https://ej2.syncfusion.com/documentation/api/drop-down-list#popupwidth) properties respectively.
+The height and width of the popup list can also be customized using the [popupHeight](https://ej2.syncfusion.com/documentation/api/drop-down-list/#popupheight) &nbsp;and [popupWidth](https://ej2.syncfusion.com/documentation/api/drop-down-list/#popupwidth) properties respectively.
 
 In the following sample, popup list's width and height are configured.
 
@@ -157,5 +157,5 @@ In the following sample, popup list's width and height are configured.
 
 ## See Also
 
-* [How to bind the data](./data-binding)
-* [How to initialize the control using different tags](./tags)
+* [How to bind the data](https://ej2.syncfusion.com/documentation/drop-down-list/data-binding)
+* [How to initialize the control using different tags](https://ej2.syncfusion.com/documentation/drop-down-list/tags)

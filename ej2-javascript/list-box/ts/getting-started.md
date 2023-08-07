@@ -128,7 +128,7 @@ listObj.appendTo('#listbox');
 
 ## Binding data source
 
-After initialization, populate the ListBox with data using the [`dataSource`](../api/list-box/#datasource) property. Here, an array of object is passed to the ListBox component.
+After initialization, populate the ListBox with data using the [`dataSource`](https://ej2.syncfusion.com/documentation/api/list-box/#datasource) property. Here, an array of object is passed to the ListBox component.
 
 ```ts
 
@@ -193,5 +193,5 @@ The following example illustrates the output in your browser.
 
 ## See Also
 
-* [How to reorder the items in the list box](./dual-list-box/#dual-list-box)
-* [How to form submit to the list box](./how-to/form-submit/#form-submit-to-the-list-box)
+* [How to reorder the items in the list box](https://ej2.syncfusion.com/documentation/list-box/dual-list-box/#dual-list-box)
+* [How to form submit to the list box](https://ej2.syncfusion.com/documentation/list-box/how-to/form-submit/#form-submit-to-the-list-box)
