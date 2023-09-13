@@ -22,8 +22,6 @@ let atcObject: AutoComplete = new AutoComplete({
     fields: { value: 'text', text: 'text' },
     //set the placeholder to DropDownList input
     placeholder:"Select an Item ",
-    //set enableVirtualization property to true
-    enableVirtualization: true,
     //set allowFiltering property to true
     allowFiltering: true,
     //set the height of the popup element

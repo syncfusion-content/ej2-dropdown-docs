@@ -18,8 +18,6 @@ var acObject = new ej.dropdowns.AutoComplete({
     placeholder:"Select an Item ",
     //set enableVirtualization property to true
     enableVirtualization: true,
-    //set allowFiltering property to true
-    allowFiltering: true,
     //set the height of the popup element
     popupHeight: '200px'
 });
