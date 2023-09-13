@@ -11,9 +11,7 @@ domainurl: ##DomainURL##
 
 # Virtualization in AutoComplete Component
 
-The AutoComplete Component features a virtual scrolling feature, specifically designed to optimize UI performance when dealing with large datasets. By turning on the [`enableVirtualization`](../api/auto-complete/#enableVirtualization) option, the AutoComplete intelligently controls data rendering by initially loading only a subset of items when the component is displayed. As you engage with the dropdown, more items are dynamically loaded while you scroll, ensuring a seamless and efficient user interaction.
-
-This feature can be applied to both local and remote data scenarios, offering flexibility in its usage. For example, if the AutoComplete is linked to a dataset with 150 items, only a handful of items are initially loaded when the dropdown is opened, depending on the popup's height. As you navigate through the list, more items are retrieved and loaded as needed, making it easy for you to navigate through the entire dataset.
+AutoComplete virtualization is a technique used to efficiently render long lists of items in a user interface while minimizing the impact on performance. It's particularly useful when dealing with large datasets, as it ensures that only a fixed number of DOM (Document Object Model) elements are created and displayed in the AutoComplete Component. As the user scrolls through the list, the existing DOM elements are reused to display the relevant data, rather than creating new elements for each item. Enabling the [`enableVirtualization`](../api/auto-complete/#enableVirtualization) option in a dropdown list activates this virtualization technique, significantly enhancing the list's performance and user experience, especially when handling large datasets.
 
 {% if page.publishingplatform == "typescript" %}
 
