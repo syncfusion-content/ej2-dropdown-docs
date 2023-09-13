@@ -25,4 +25,6 @@ The DropDownList component contains a list of predefined values from which a sin
 
 * **[Templates](./templates)** - Allows customizing the list items, selected value, header, footer, category group header, and no records content.
 
+* **[Virtualization](./virtual-scroll)** - Enables the virtualization of list items based on scroll actions for the list.
+
 * **[Accessibility](./accessibility)** - Provided with built-in accessibility support that helps to access all the DropDownList component features through the keyboard, screen readers, or other assistive technology devices.
