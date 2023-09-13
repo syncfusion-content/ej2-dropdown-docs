@@ -29,6 +29,6 @@ text in the suggestion list.
 category group header, no records and action failure
 content.
 
-* **[Virtualization](./virtual-scroll)** - Enables the virtualization of list items based on scroll actions for the list.
+* **[Virtualization](./virtual-scroll)** - Enables loading large sets of data by virtualizing popup items based on the popup height.
 
 * **[Accessibility](./accessibility)** - Provided with built-in accessibility support that helps to access all the AutoComplete component features through keyboard, on-screen readers, or other assistive technology devices.
