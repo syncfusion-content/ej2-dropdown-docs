@@ -10,9 +10,8 @@ let dropDownListObject: DropDownList = new DropDownList({
     //set the data to dataSource property
     dataSource: sportsData,
     // set placeholder to DropDownList input element
-    placeholder: "Select a game"
-
-    floatLabelType: "auto"
+    placeholder: "Select a game",
+    floatLabelType: "Auto"
 });
 
 // render initialized DropDownList
