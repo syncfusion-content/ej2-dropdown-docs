@@ -27,4 +27,6 @@ The ComboBox component allows the user to type a value or choose an option from 
 
 * **[Templates](./templates)** - Allows customizing the list items, selected value, header, footer, category group header, and no records content.
 
+* **[Virtualization](./virtual-scroll)** - Enables loading large sets of data by virtualizing popup items based on the popup height.
+
 * **[Accessibility](./accessibility)** - Provided with built-in accessibility support that helps to access all the ComboBox component features through the keyboard, screen readers, or other assistive technology devices.
