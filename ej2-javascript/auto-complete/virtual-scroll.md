@@ -17,7 +17,7 @@ During virtual scrolling, the data retrieved from the data source depends on the
  
 When fetching data from the data source, the [actionBegin](../api/auto-complete/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/auto-complete/#actioncomplete) event is triggered once the data is successfully fetched.
 
-Please be aware that for virtualization, the 'take' and 'skip' properties are internally managed, and properties set at the application level may not be considered.
+Please note that for virtualization, the 'take' and 'skip' properties are internally managed, and properties set at the application level may not be considered.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -50,3 +50,4 @@ Please be aware that for virtualization, the 'take' and 'skip' properties are in
 
 * Virtualization is not supported in the grouping feature.
 * Virtualization does not work when the popup is closed, and a keyboard action is performed.
+* Virtual scrolling in a AutoComplete control may not perform optimally when users attempt to interact with the component using the down and up arrow keys while the dropdown popup is closed.
