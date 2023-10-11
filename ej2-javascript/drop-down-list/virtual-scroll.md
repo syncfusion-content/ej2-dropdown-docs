@@ -11,7 +11,13 @@ domainurl: ##DomainURL##
 
 # Virtualization in DropDown List
 
-Dropdown list virtualization is a technique used to efficiently render long lists of items in a user interface while minimizing the impact on performance. It's particularly useful when dealing with large datasets because it ensures that only a fixed number of DOM (Document Object Model) elements are created and displayed in the dropdown list component. We initiate a request to fetch data from the data source and then update it in the popup list. During virtual scrolling, data is fetched from the data source using "take" (based on popup height) and "skip" actions. The existing DOM elements are reused to display the relevant data, rather than creating new elements for each item, which we handle internally. Enabling the [`enableVirtualization`](../api/drop-down-list/#enableVirtualization) option in a dropdown list activates this virtualization technique, significantly enhancing the list's performance and user experience, especially when handling large datasets.
+Dropdown list virtualization is a technique used to efficiently render extensive lists of items while minimizing the impact on performance. This method is particularly advantageous when dealing with large datasets because it ensures that only a fixed number of DOM (Document Object Model) elements are created. When scrolling through the list, existing DOM elements are reused to display relevant data instead of generating new elements for each item. This recycling process is managed internally.
+ 
+During virtual scrolling, the data retrieved from the data source depends on the popup height and the calculation of the list item height. Enabling the [enableVirtualization](../api/drop-down-list/#enableVirtualization) option in a dropdown list activates this virtualization technique.
+ 
+When fetching data from the data source, the [actionBegin](../api/drop-down-list/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/drop-down-list/#actioncomplete) event is triggered once the data is successfully fetched.
+
+Please be aware that for virtualization, the 'take' and 'skip' properties are internally managed, and properties set at the application level may not be considered.
 
 {% if page.publishingplatform == "typescript" %}
 
