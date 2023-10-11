@@ -47,5 +47,4 @@ When fetching data from the data source, the [actionBegin](../api/combo-box/#act
 ## Limitation of virtualization
 
 * Virtualization is not supported in the grouping feature.
-* Virtualization does not work when the popup is closed, and a keyboard action is performed.
 * Virtual scrolling in a ComboBox control may not perform optimally when users attempt to interact with the component using the down and up arrow keys while the dropdown popup is closed.

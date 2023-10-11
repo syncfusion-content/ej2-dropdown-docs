@@ -47,6 +47,5 @@ When fetching data from the data source, the [actionBegin](../api/drop-down-list
 ## Limitation of virtualization
 
 * Virtualization is not supported in the grouping feature.
-* Virtualization does not work when the popup is closed, and a keyboard action is performed.
 * Virtual scrolling in a Dropdown List control may not perform optimally when using incremental search. This limitation arises when the dropdown popup is closed, and users attempt to interact with the component using keyboard input.
 
