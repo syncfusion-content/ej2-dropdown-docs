@@ -17,8 +17,6 @@ During virtual scrolling, the data retrieved from the data source depends on the
  
 When fetching data from the data source, the [actionBegin](../api/drop-down-list/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/drop-down-list/#actioncomplete) event is triggered once the data is successfully fetched.
 
-Please note that for virtualization, the 'take' and 'skip' properties are internally managed, and properties set at the application level may not be considered.
-
 {% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
