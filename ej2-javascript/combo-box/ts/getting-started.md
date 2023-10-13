@@ -11,7 +11,9 @@ domainurl: ##DomainURL##
 
 # Getting started in ##Platform_Name## Combo box control
 
-This section explains how to create a simple **ComboBox** component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/syncfusion/ej2-quickstart.git) seed repository.
+This section explains how to create a simple **ComboBox** component and configure its available functionalities in TypeScript, using Essential JS 2 [quickstart](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-) seed repository.
+
+> This application is integrated with the `webpack.config.js` configuration and uses the latest version of the [webpack-cli](https://webpack.js.org/api/cli/#commands). It requires node `v14.15.0` or higher. For more information about webpack and its features, refer to the [webpack documentation](https://webpack.js.org/guides/getting-started/).
 
 ## Dependencies
 
@@ -28,17 +30,41 @@ The following list of dependencies are required to use the `ComboBox` component 
         |-- @syncfusion/ej2-buttons
 ```
 
-## Set up of the development environment
+## Set up development environment
 
-To get you started with ComboBox component, you need to clone the [`Essential JS 2 quickstart`](https://github.com/syncfusion/ej2-quickstart.git) project and install the packages by using the following commands.
+Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
 ```
-git clone https://github.com/syncfusion/ej2-quickstart.git quickstart
-cd quickstart
-npm install
+    git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
 ```
 
-> The [project](https://github.com/syncfusion/ej2-quickstart.git) is preconfigured with common settings (`src/styles/styles.css`, `system.config.js` ) to start with all Essential JS 2 components.
+After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
+
+```
+    cd ej2-quickstart
+```
+
+## Add Syncfusion JavaScript packages
+
+Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com](https://www.npmjs.com/~syncfusionorg) public registry. You can install all Syncfusion JavaScript (Essential JS 2) controls in a single [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package or individual packages for each control.
+
+The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
+
+```
+    npm install
+```
+
+## Import the Syncfusion CSS styles
+
+Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme/), which are available in the installed packages. It's easy to adapt the Syncfusion JavaScript controls to match the style of your application by referring to one of the built-in themes.
+
+The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
+
+```
+  @import "../../node_modules/@syncfusion/ej2/material.css";
+```
+
+> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
 
 ## Initialize the ComboBox
 
@@ -57,16 +83,6 @@ Add the HTML input element that needs to be initialized as ComboBox in `index.ht
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="description" content="Essential JS 2" />
-    <meta name="author" content="Syncfusion" />
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!--style reference from app-->
-    <link href="/styles/styles.css" rel="stylesheet" />
-
-    <!--system js reference and configuration-->
-    <script src="node_modules/systemjs/dist/system.src.js" type="text/javascript"></script>
-    <script src="system.config.js" type="text/javascript"></script>
-</head>
 
 <body>
     <div id='container' style="margin:0 auto; width:300px;">
