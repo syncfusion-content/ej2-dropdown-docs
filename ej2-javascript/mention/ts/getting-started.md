@@ -102,6 +102,8 @@ Add the HTML div tag with the `id` attribute as `mentionElement` to your `index.
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <meta name="description" content="Essential JS 2" />
+    <meta name="author" content="Syncfusion" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 
