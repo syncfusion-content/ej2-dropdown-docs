@@ -73,12 +73,12 @@ To render Mention control, need to import dropdowns and its dependent controls s
 {% tabs %}
 {% highlight css tabtitle="style.css" %}
 
-@import "../node_modules/@syncfusion/ej2-base/styles/bootstrap5.css";
-@import "../node_modules/@syncfusion/ej2-inputs/styles/bootstrap5.css";
-@import "../node_modules/@syncfusion/ej2-buttons/styles/bootstrap5.css";
-@import "../node_modules/@syncfusion/ej2-popups/styles/bootstrap5.css";
-@import "../node_modules/@syncfusion/ej2-lists/styles/bootstrap5.css";
-@import "../node_modules/@syncfusion/ej2-dropdowns/styles/bootstrap5.css";
+@import "../../node_modules/@syncfusion/ej2-base/styles/bootstrap5.css";
+@import "../../node_modules/@syncfusion/ej2-inputs/styles/bootstrap5.css";
+@import "../../node_modules/@syncfusion/ej2-buttons/styles/bootstrap5.css";
+@import "../../node_modules/@syncfusion/ej2-popups/styles/bootstrap5.css";
+@import "../../node_modules/@syncfusion/ej2-lists/styles/bootstrap5.css";
+@import "../../node_modules/@syncfusion/ej2-dropdowns/styles/bootstrap5.css";
 
 {% endhighlight %}
 {% endtabs %}
