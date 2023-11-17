@@ -68,7 +68,7 @@ npm install
 
 ## Import the Syncfusion CSS styles
 
-To render Mention control, need to import dropdowns and its dependent controls styles as given below in the `~/src/styles/styles.css` file, as shown below:
+To render Mention control, need to import dropdowns and its dependent controls styles as given below in the `~/src/styles/styles.css` file, as shown below: 
 
 {% tabs %}
 {% highlight css tabtitle="style.css" %}
