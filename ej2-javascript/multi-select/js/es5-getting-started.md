@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Es5 getting started with ##Platform_Name## Multi select control | Syncfusion
-description: Learn here all about Es5 getting started with ##Platform_Name## Multi select control of Syncfusion Essential JS 2 and more details.
+title: Es5 getting started with JavaScript Multi select control | Syncfusion
+description: Checkout and learn about Es5 getting started with JavaScript Multi select control of Syncfusion Essential JS 2 and more details.
 platform: ej2-javascript
 control: Es5 getting started 
-publishingplatform: ##Platform_Name##
+publishingplatform: JavaScript
 documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Es5 getting started with ##Platform_Name## Multi select control
+# Es5 getting started with JavaScript Multi select control
 
 The Essential JS 2 for JavaScript (global script) is an ES5 formatted pure JavaScript framework which can be directly used in latest web browsers.
 
