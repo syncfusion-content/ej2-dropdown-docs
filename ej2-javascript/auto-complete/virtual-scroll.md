@@ -20,7 +20,9 @@ When fetching data from the data source, the [actionBegin](../api/auto-complete/
 
 ## Binding local data
 
-Local data can be represented in as described below.
+The AutoComplete can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property.
+
+In the following example, `id` column and `text` column from complex data have been mapped to the `value` field and `text` field, respectively.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -52,7 +54,9 @@ Local data can be represented in as described below.
 
 ## Binding Remote data
 
-Remote data can be represented in as described below.
+The AutoComplete supports retrieval of data from remote data services with the help of `DataManager` component.
+
+The following sample displays the OrderId from the `Orders` Data Service.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -83,7 +87,9 @@ Remote data can be represented in as described below.
 
 ## Grouping with Virtualization
 
-Local data can be represented in as described below.
+The AutoComplete enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table.
+
+The following sample shows the example for Grouping with Virtualization
 
 {% if page.publishingplatform == "typescript" %}
 
