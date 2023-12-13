@@ -17,6 +17,11 @@ During virtual scrolling, the data retrieved from the data source depends on the
  
 When fetching data from the data source, the [actionBegin](../api/drop-down-list/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/drop-down-list/#actioncomplete) event is triggered once the data is successfully fetched.
 
+
+## Binding local data
+
+Local data can be represented in as described below.
+
 {% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
@@ -44,8 +49,65 @@ When fetching data from the data source, the [actionBegin](../api/drop-down-list
 {% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll" %}
 {% endif %}
 
-## Limitation of virtualization
 
-* Virtualization is not supported in the grouping feature.
-* Virtual scrolling in a Dropdown List control may not perform optimally when using incremental search. This limitation arises when the dropdown popup is closed, and users attempt to interact with the component using keyboard input.
+## Binding Remote data
 
+Remote data can be represented in as described below.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/dropdownlist/virtual-scroll-remote/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/dropdownlist/virtual-scroll-remote/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-remote" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/dropdownlist/virtual-scroll-remote/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/dropdownlist/virtual-scroll-remote/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-remote" %}
+{% endif %}
+
+## Grouping with Virtualization
+
+Local data can be represented in as described below.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/dropdownlist/virtual-scroll-group/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/dropdownlist/virtual-scroll-group/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-group" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/dropdownlist/virtual-scroll-group/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/dropdownlist/virtual-scroll-group/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-group" %}
+{% endif %}

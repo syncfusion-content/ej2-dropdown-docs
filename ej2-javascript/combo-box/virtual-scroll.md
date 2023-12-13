@@ -17,6 +17,11 @@ During virtual scrolling, the data retrieved from the data source depends on the
  
 When fetching data from the data source, the [actionBegin](../api/combo-box/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/combo-box/#actioncomplete) event is triggered once the data is successfully fetched.
 
+
+## Binding local data
+
+Local data can be represented in as described below.
+
 {% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
@@ -44,7 +49,65 @@ When fetching data from the data source, the [actionBegin](../api/combo-box/#act
 {% previewsample "page.domainurl/code-snippet/combobox/virtual-scroll" %}
 {% endif %}
 
-## Limitation of virtualization
 
-* Virtualization is not supported in the grouping feature.
-* Virtual scrolling in a ComboBox control may not perform optimally when users attempt to interact with the component using the down and up arrow keys while the dropdown popup is closed.
+## Binding Remote data
+
+Remote data can be represented in as described below.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/combobox/virtual-scroll-remote/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/combobox/virtual-scroll-remote/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/combobox/virtual-scroll-remote" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/combobox/virtual-scroll-remote/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/combobox/virtual-scroll-remote/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/combobox/virtual-scroll-remote" %}
+{% endif %}
+
+## Grouping with Virtualization
+
+Local data can be represented in as described below.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/combobox/virtual-scroll-group/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/combobox/virtual-scroll-group/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/combobox/virtual-scroll-group" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/combobox/virtual-scroll-group/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/combobox/virtual-scroll-group/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/combobox/virtual-scroll-group" %}
+{% endif %}
