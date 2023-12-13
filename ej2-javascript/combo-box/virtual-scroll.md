@@ -17,6 +17,10 @@ During virtual scrolling, the data retrieved from the data source depends on the
  
 When fetching data from the data source, the [actionBegin](../api/combo-box/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/combo-box/#actioncomplete) event is triggered once the data is successfully fetched.
 
+Furthermore, IncrementalSearch is supported with virtualization in the Combobox component. When a key is typed, the focus is moved to the respective element in the open popup state. In the closed popup state, the focus shifts to the corresponding item based on the typed key.
+
+Please note that when the enableVirtualization property is enabled, the 'take' property of the Query parameter may not function as expected, as it is internally managed within our source code.
+
 
 ## Binding local data
 
@@ -54,7 +58,7 @@ In the following example, `id` column and `text` column from complex data have b
 
 ## Binding Remote data
 
-The Combobox supports retrieval of data from remote data services with the help of `DataManager` component.
+The Combobox supports retrieval of data from remote data services with the help of `DataManager` component. When using remote data, it initially fetches all the data from the server, triggering the `actionBegin` and `actionComplete` events, and then stores the data locally. During virtual scrolling, additional data is retrieved from the locally stored data, triggering the `actionBegin` and `actionComplete` events at that time as well.
 
 The following sample displays the OrderId from the `Orders` Data Service.
 
@@ -87,7 +91,7 @@ The following sample displays the OrderId from the `Orders` Data Service.
 
 ## Grouping with Virtualization
 
-The Combobox enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table.
+The Combobox enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table. also, the DropDownList component supports grouping with virtualization.
 
 The following sample shows the example for Grouping with Virtualization
 

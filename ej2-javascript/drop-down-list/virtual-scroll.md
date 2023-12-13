@@ -13,14 +13,17 @@ domainurl: ##DomainURL##
 
 Dropdown list virtualization is a technique used to efficiently render extensive lists of items while minimizing the impact on performance. This method is particularly advantageous when dealing with large datasets because it ensures that only a fixed number of DOM (Document Object Model) elements are created. When scrolling through the list, existing DOM elements are reused to display relevant data instead of generating new elements for each item. This recycling process is managed internally.
  
-During virtual scrolling, the data retrieved from the data source depends on the popup height and the calculation of the list item height. Enabling the [enableVirtualization](../api/drop-down-list/#enableVirtualization) option in a dropdown list activates this virtualization technique.
+During virtual scrolling, the data retrieved from the data source depends on the popup height and the calculation of the list item height. Enabling the [enableVirtualization](../api/drop-down-list/#enableVirtualization) option in a dropdown list activates this virtualization technique. take and skip queries handled based 
  
 When fetching data from the data source, the [actionBegin](../api/drop-down-list/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/drop-down-list/#actioncomplete) event is triggered once the data is successfully fetched.
 
+Furthermore, IncrementalSearch is supported with virtualization in the DropDownList component. When a key is typed, the focus is moved to the respective element in the open popup state. In the closed popup state, the focus shifts to the corresponding item based on the typed key.
+
+Please note that when the enableVirtualization property is enabled, the 'take' property of the Query parameter may not function as expected, as it is internally managed within our source code.
 
 ## Binding local data
 
-The DropDownList can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property.
+The DropDownList can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property. 
 
 In the following example, `id` column and `text` column from complex data have been mapped to the `value` field and `text` field, respectively.
 
@@ -54,7 +57,7 @@ In the following example, `id` column and `text` column from complex data have b
 
 ## Binding Remote data
 
-The DropDownList supports retrieval of data from remote data services with the help of `DataManager` component.
+The DropDownList supports retrieval of data from remote data services with the help of `DataManager` component. When using remote data, it initially fetches all the data from the server, triggering the `actionBegin` and `actionComplete` events, and then stores the data locally. During virtual scrolling, additional data is retrieved from the locally stored data, triggering the `actionBegin` and `actionComplete` events at that time as well.
 
 The following sample displays the OrderId from the `Orders` Data Service.
 
@@ -87,7 +90,7 @@ The following sample displays the OrderId from the `Orders` Data Service.
 
 ## Grouping with Virtualization
 
-The DropDownList enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table.
+The DropDownList enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table. also, the DropDownList component supports grouping with virtualization.
 
 The following sample shows the example for Grouping with Virtualization
 
