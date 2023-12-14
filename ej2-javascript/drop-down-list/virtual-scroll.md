@@ -23,7 +23,9 @@ Please note that when the enableVirtualization property is enabled, the 'take' p
 
 ## Binding local data
 
-The DropDownList can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property. 
+The DropDownList can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property. During virtual scrolling, the list is refreshed in accordance with the scroll offset value, prompting a request to retrieve data from the server. Concurrently, as data is being sourced, the `actionBegin` event is initiated prior to the commencement of data acquisition. Following the successful retrieval of data, the `actionComplete` event is activated, marking the completion of the data fetch process.
+
+Furthermore, IncrementalSearch is supported with virtualization in the DropDownList component. When a key is typed, the focus is moved to the respective element in the open popup state. In the closed popup state, the focus shifts to the corresponding item based on the typed key. The Incremental Search functionality is well-suited for scenarios that involve remote data binding case.
 
 In the following example, `id` column and `text` column from complex data have been mapped to the `value` field and `text` field, respectively.
 
@@ -90,7 +92,9 @@ The following sample displays the OrderId from the `Orders` Data Service.
 
 ## Grouping with Virtualization
 
-The DropDownList enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table. also, the DropDownList component supports grouping with virtualization.
+The DropDownList enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table. also, the DropDownList component supports grouping with virtualization. In the case of grouping, the provided data source is initially grouped using the specified `groupBy` field. Once the data is grouped, it behaves similarly to local data, providing a seamless user experience. When the data source is bound to remote data, an initial request is made to retrieve all data for the purpose of grouping. Subsequently, the grouped data exhibits behavior akin to local data, enhancing performance and responsiveness.
+
+The following sample shows the example for Grouping with Virtualization
 
 The following sample shows the example for Grouping with Virtualization
 
@@ -119,4 +123,38 @@ The following sample shows the example for Grouping with Virtualization
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-group" %}
+{% endif %}
+
+## Filtering with Virtualization
+
+The DropDownList includes a built-in feature that enables data filtering when the allowFiltering option is enabled. This means that the filtering process initiates automatically as soon as you begin typing characters into the DropDownList component. In the context of Virtual Scrolling, the filtering process operates in response to the typed characters. Specifically, the DropDownList sends a request to the server, utilizing the full data source, to achieve filtering. Before initiating the request, an action event is triggered. Upon successful retrieval of data from the server, an action complete event is triggered.
+
+The following sample shows the example for Filtering with Virtualization
+
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/dropdownlist/virtual-scroll-filter/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/dropdownlist/virtual-scroll-filter/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-filter" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/dropdownlist/virtual-scroll-filter/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/dropdownlist/virtual-scroll-filter/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/dropdownlist/virtual-scroll-filter" %}
 {% endif %}

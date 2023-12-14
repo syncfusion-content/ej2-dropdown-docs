@@ -1,13 +1,6 @@
-
-
-
-import { DropDownList, VirtualScroll } from '@syncfusion/ej2-dropdowns';
-
-DropDownList.Inject(VirtualScroll);
-
-let records: { [key: string]: Object }[] = [];
-for (let i: number = 1; i <= 150; i++) {
-    let item = {
+var records = [];
+for (var i = 1; i <= 150; i++) {
+    var item = {
         id: 'id' + i,
         text: "Item " + i,
     };
@@ -15,7 +8,7 @@ for (let i: number = 1; i <= 150; i++) {
 }
 
 //initiates the component
-let DropDownListObject: DropDownList = new DropDownList({
+var comboBoxObject = new ej.dropdowns.ComboBox({
     //bind the dataSorce property
     dataSource: records,
     //map the appropriate columns to fields property
@@ -23,7 +16,7 @@ let DropDownListObject: DropDownList = new DropDownList({
     //set the placeholder to DropDownList input
     placeholder:"Select an Item ",
     //set enableVirtualization property to true
-    enableVirtualization: false,
+    enableVirtualization: true,
     //set allowFiltering property to true
     allowFiltering: true,
     //set the height of the popup element
@@ -31,7 +24,5 @@ let DropDownListObject: DropDownList = new DropDownList({
 });
 
 //render the component
-DropDownListObject.appendTo('#ddlelement');
-
-
+comboBoxObject.appendTo('#comboelement');
 
