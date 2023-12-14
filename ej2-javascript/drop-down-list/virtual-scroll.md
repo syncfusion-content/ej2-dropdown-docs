@@ -13,19 +13,17 @@ domainurl: ##DomainURL##
 
 Dropdown list virtualization is a technique used to efficiently render extensive lists of items while minimizing the impact on performance. This method is particularly advantageous when dealing with large datasets because it ensures that only a fixed number of DOM (Document Object Model) elements are created. When scrolling through the list, existing DOM elements are reused to display relevant data instead of generating new elements for each item. This recycling process is managed internally.
  
-During virtual scrolling, the data retrieved from the data source depends on the popup height and the calculation of the list item height. Enabling the [enableVirtualization](../api/drop-down-list/#enableVirtualization) option in a dropdown list activates this virtualization technique. take and skip queries handled based 
+During virtual scrolling, the data retrieved from the data source depends on the popup height and the calculation of the list item height. Enabling the [enableVirtualization](../api/drop-down-list/#enableVirtualization) option in a dropdown list activates this virtualization technique. 
  
 When fetching data from the data source, the [actionBegin](../api/drop-down-list/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/drop-down-list/#actioncomplete) event is triggered once the data is successfully fetched.
 
-Furthermore, IncrementalSearch is supported with virtualization in the DropDownList component. When a key is typed, the focus is moved to the respective element in the open popup state. In the closed popup state, the focus shifts to the corresponding item based on the typed key.
+Furthermore, Incremental Search is supported with virtualization in the DropDownList component. When a key is typed, the focus is moved to the respective element, and the value is updated in the component in the open popup state. In the closed popup state, the respective value is updated in the component based on the typed key. The Incremental Search functionality is well-suited for scenarios involving remote data binding.
 
-Please note that when the enableVirtualization property is enabled, the 'take' property of the Query parameter may not function as expected, as it is internally managed within our source code.
+When the enableVirtualization property is enabled, the bound action begin event level or action complete event level does not make a request based on the 'skip' and 'take' properties of the Query parameter. Instead, this process is internally managed and calculated based on certain dimensions with respect to the popup height. Virtualization is then performed using the 'skip' and 'take' properties of the Query parameter, determined by the popup height of the component.
 
 ## Binding local data
 
-The DropDownList can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property. During virtual scrolling, the list is refreshed in accordance with the scroll offset value, prompting a request to retrieve data from the server. Concurrently, as data is being sourced, the `actionBegin` event is initiated prior to the commencement of data acquisition. Following the successful retrieval of data, the `actionComplete` event is activated, marking the completion of the data fetch process.
-
-Furthermore, IncrementalSearch is supported with virtualization in the DropDownList component. When a key is typed, the focus is moved to the respective element in the open popup state. In the closed popup state, the focus shifts to the corresponding item based on the typed key. The Incremental Search functionality is well-suited for scenarios that involve remote data binding case.
+The DropDownList can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property. When using virtual scrolling, the list updates based on the scroll offset value, triggering a request to fetch more data from the server. As the data is being fetched, the `actionBegin` event occurs before the data retrieval starts. Once the data retrieval is successful, the `actionComplete` event is triggered, indicating that the data fetch process is complete.
 
 In the following example, `id` column and `text` column from complex data have been mapped to the `value` field and `text` field, respectively.
 
@@ -92,7 +90,7 @@ The following sample displays the OrderId from the `Orders` Data Service.
 
 ## Grouping with Virtualization
 
-The DropDownList enables the organization of nested elements into grouped clusters according to various categories. The classification for each item in the list can be assigned using the 'groupBy' field in the data table. also, the DropDownList component supports grouping with virtualization. In the case of grouping, the provided data source is initially grouped using the specified `groupBy` field. Once the data is grouped, it behaves similarly to local data, providing a seamless user experience. When the data source is bound to remote data, an initial request is made to retrieve all data for the purpose of grouping. Subsequently, the grouped data exhibits behavior akin to local data, enhancing performance and responsiveness.
+The DropDownList component supports grouping with Virtualization. It allows you to organize elements into groups based on different categories. Each item in the list can be classified using the `groupBy` field in the data table. When grouping is applied, the data source is initially organized using the specified `groupBy` field. After grouping, virtualization works similarly to local data binding, providing a seamless user experience. When the data source is bound to remote data, an initial request is made to retrieve all data for the purpose of grouping. Subsequently, the grouped data works in the same way as local data binding virtualization, enhancing performance and responsiveness.
 
 The following sample shows the example for Grouping with Virtualization
 
@@ -127,7 +125,8 @@ The following sample shows the example for Grouping with Virtualization
 
 ## Filtering with Virtualization
 
-The DropDownList includes a built-in feature that enables data filtering when the allowFiltering option is enabled. This means that the filtering process initiates automatically as soon as you begin typing characters into the DropDownList component. In the context of Virtual Scrolling, the filtering process operates in response to the typed characters. Specifically, the DropDownList sends a request to the server, utilizing the full data source, to achieve filtering. Before initiating the request, an action event is triggered. Upon successful retrieval of data from the server, an action complete event is triggered.
+The DropDownList component supports Filtering with Virtualization. The DropDownList includes a built-in feature that enables data filtering when the allowFiltering option is enabled. This means that the filtering process initiates automatically as soon as you begin typing characters into the DropDownList component. In the context of Virtual Scrolling, the filtering process operates in response to the typed characters. Specifically, the DropDownList sends a request to the server, utilizing the full data source, to achieve filtering. Before initiating the request, an action event is triggered. Upon successful retrieval of data from the server, an action complete event is triggered. The initial data is loaded when the popup is opened. Whether the filter list has a selection or not, the popup closes.
+
 
 The following sample shows the example for Filtering with Virtualization
 
