@@ -92,9 +92,7 @@ The following sample displays the OrderId from the `Orders` Data Service.
 
 The DropDownList component supports grouping with Virtualization. It allows you to organize elements into groups based on different categories. Each item in the list can be classified using the `groupBy` field in the data table. When grouping is applied, the data source is initially organized using the specified `groupBy` field. After grouping, virtualization works similarly to local data binding, providing a seamless user experience. When the data source is bound to remote data, an initial request is made to retrieve all data for the purpose of grouping. Subsequently, the grouped data works in the same way as local data binding virtualization, enhancing performance and responsiveness.
 
-The following sample shows the example for Grouping with Virtualization
-
-The following sample shows the example for Grouping with Virtualization
+The following sample shows the example for Grouping with Virtualization.
 
 {% if page.publishingplatform == "typescript" %}
 
@@ -127,9 +125,7 @@ The following sample shows the example for Grouping with Virtualization
 
 The DropDownList component supports Filtering with Virtualization. The DropDownList includes a built-in feature that enables data filtering when the allowFiltering option is enabled. This means that the filtering process initiates automatically as soon as you begin typing characters into the DropDownList component. In the context of Virtual Scrolling, the filtering process operates in response to the typed characters. Specifically, the DropDownList sends a request to the server, utilizing the full data source, to achieve filtering. Before initiating the request, an action event is triggered. Upon successful retrieval of data from the server, an action complete event is triggered. The initial data is loaded when the popup is opened. Whether the filter list has a selection or not, the popup closes.
 
-
-The following sample shows the example for Filtering with Virtualization
-
+The following sample shows the example for Filtering with Virtualization.
 
 {% if page.publishingplatform == "typescript" %}
 
