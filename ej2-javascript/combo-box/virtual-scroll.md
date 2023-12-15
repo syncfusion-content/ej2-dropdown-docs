@@ -23,7 +23,7 @@ When the enableVirtualization property is enabled, the `skip` and `take` propert
 
 ## Binding local data
 
-The Combobox can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/drop-down-list/#fields) property. When using virtual scrolling, the list updates based on the scroll offset value, triggering a request to fetch more data from the server. As the data is being fetched, the `actionBegin` event occurs before the data retrieval starts. Once the data retrieval is successful, the `actionComplete` event is triggered, indicating that the data fetch process is complete.
+The Combobox can generate its list items through an array of complex data. For this, the appropriate columns should be mapped to the [fields](../api/combo-box/#fields) property. When using virtual scrolling, the list updates based on the scroll offset value, triggering a request to fetch more data from the server. As the data is being fetched, the `actionBegin` event occurs before the data retrieval starts. Once the data retrieval is successful, the `actionComplete` event is triggered, indicating that the data fetch process is complete.
 
 In the following example, `id` column and `text` column from complex data have been mapped to the `value` field and `text` field, respectively.
 
