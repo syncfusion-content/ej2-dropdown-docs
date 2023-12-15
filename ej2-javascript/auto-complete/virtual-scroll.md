@@ -17,7 +17,7 @@ During virtual scrolling, the data retrieved from the data source depends on the
  
 When fetching data from the data source, the [actionBegin](../api/auto-complete/#actionbegin) event is triggered before data retrieval begins. Then, the [actionComplete](../api/auto-complete/#actioncomplete) event is triggered once the data is successfully fetched.
 
-When the enableVirtualization property is enabled, the bound action begin event level or action complete event level does not make a request based on the 'skip' and 'take' properties of the Query parameter. Instead, this process is internally managed and calculated based on certain dimensions with respect to the popup height. Virtualization is then performed using the 'skip' and 'take' properties of the Query parameter, determined by the popup height of the component.
+When the enableVirtualization property is enabled, the `skip` and `take` properties provided by the user within the Query class at the initial state or during the `actionBegin` or `actionComplete` events will not be considered, since it is internally managed and calculated based on certain dimensions with respect to the popup height.
 
 ## Binding local data
 
@@ -88,7 +88,7 @@ The following sample displays the OrderId from the `Orders` Data Service.
 
 ## Grouping with Virtualization
 
-The AutoComplete component supports grouping with Virtualization. It allows you to organize elements into groups based on different categories. Each item in the list can be classified using the `groupBy` field in the data table. When grouping is applied, the data source is initially organized using the specified `groupBy` field. After grouping, virtualization works similarly to local data binding, providing a seamless user experience. When the data source is bound to remote data, an initial request is made to retrieve all data for the purpose of grouping. Subsequently, the grouped data works in the same way as local data binding virtualization, enhancing performance and responsiveness.
+The AutoComplete component supports grouping with Virtualization. It allows you to organize elements into groups based on different categories. Each item in the list can be classified using the [groupBy](../api/auto-complete/#fields) field in the data table. When grouping is applied, the data source is initially organized using the specified `groupBy` field. After grouping, virtualization works similarly to local data binding, providing a seamless user experience. When the data source is bound to remote data, an initial request is made to retrieve all data for the purpose of grouping. Subsequently, the grouped data works in the same way as local data binding virtualization, enhancing performance and responsiveness.
 
 The following sample shows the example for Grouping with Virtualization.
 
