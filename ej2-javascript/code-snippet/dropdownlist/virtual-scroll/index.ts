@@ -23,9 +23,9 @@ let DropDownListObject: DropDownList = new DropDownList({
     //set the placeholder to DropDownList input
     placeholder:"Select an Item ",
     //set enableVirtualization property to true
-    enableVirtualization: false,
+    enableVirtualization: true,
     //set allowFiltering property to true
-    allowFiltering: true,
+    allowFiltering: false,
     //set the height of the popup element
     popupHeight: '200px'
 });
