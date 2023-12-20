@@ -7,7 +7,7 @@ var mentionObject = new ej.dropdowns.Mention({
           crossDomain: true
   }),
   //bind the Query instance to query property
-  query: new Query().select(['ContactName', 'CustomerID']).take(7),
+  query: new ej.data.Query().select(['ContactName', 'CustomerID']).take(7),
   //map the appropriate columns to fields property
   fields: { text: 'ContactName', value: 'CustomerID' },
   minLength: 3
