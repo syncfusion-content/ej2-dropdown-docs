@@ -71,7 +71,7 @@ The ListBox component's accessibility levels are ensured through an [accessibili
 
 The accessibility compliance of the ListBox component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/list-box.html) in a new window to evaluate the accessibility of the ListBox component with accessibility tools.
 
-{% previewsample "https://ej2.syncfusion.com/accessibility/list-box.html" %}
+{% previewsample "page.domainurl/code-snippet/list-box/getting-started-cs1" %}
 
 ## See also
 
