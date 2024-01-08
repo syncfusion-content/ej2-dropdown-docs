@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtualization in JavaScript DropDown List control | Syncfusion
-description: Learn here all about Virtualization in Syncfusion JavaScript DropDown List control of Syncfusion Essential JS 2 and more.
+description: Learn here all about virtualization in Syncfusion Essential JavaScript DropDown List control, its elements and more.
 platform: ej2-javascript
 control: Virtualization 
 publishingplatform: JavaScript
