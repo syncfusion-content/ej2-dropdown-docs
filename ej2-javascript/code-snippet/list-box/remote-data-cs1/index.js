@@ -3,7 +3,7 @@ var listObj = new ej.dropdowns.ListBox({
     //bind the DataManager instance to dataSource property
     dataSource: new ej.data.DataManager({
             url: 'https://services.odata.org/V4/Northwind/Northwind.svc/',
-            adaptor: new ODataV4Adaptor,
+            adaptor: new ej.data.ODataV4Adaptor(),
             crossDomain: true
         }),
     //bind the Query instance to query property
