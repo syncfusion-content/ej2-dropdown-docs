@@ -160,7 +160,7 @@ In the following sample, displayed first 6 contacts from the `customer` table of
 
 ## See Also
 
-* [How to acheive cascading](./how-to/cascading/)
-* [How to load data using template](./templates/#item-template)
+* [How to acheive cascading](./how-to/cascading)
+* [How to load data using template](./templates#item-template)
 * [How to group the data using header](./grouping)
 * [How to filter the bound data](./filtering)
