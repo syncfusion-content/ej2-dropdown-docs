@@ -112,5 +112,5 @@ The ListBox also supports grouping of list items under specific groups by initia
 
 ## See Also
 
-* [How to bind the data source to the list box](./getting-started/#binding-data-source)
-* [How to initialize the list box](./getting-started/#initialize-the-listbox)
+* [How to bind the data source to the list box](./getting-started#binding-data-source)
+* [How to initialize the list box](./getting-started#initialize-the-listbox)
