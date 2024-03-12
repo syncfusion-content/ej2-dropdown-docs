@@ -164,27 +164,27 @@ The following sample shows the example for checkbox with Virtualization.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.ts %}
+{% include code-snippet/multiselect/virtual-scroll-check/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.html %}
+{% include code-snippet/multiselect/virtual-scroll-check/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-filter" %}
+{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-check" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.js %}
+{% include code-snippet/multiselect/virtual-scroll-check/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.html %}
+{% include code-snippet/multiselect/virtual-scroll-check/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-filter" %}
+{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-check" %}
 {% endif %}
 
 ## Custom value with Virtualization
@@ -197,27 +197,27 @@ The following sample shows the example for custom value with Virtualization.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.ts %}
+{% include code-snippet/multiselect/virtual-scroll-custom/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.html %}
+{% include code-snippet/multiselect/virtual-scroll-custom/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-filter" %}
+{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-custom" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.js %}
+{% include code-snippet/multiselect/virtual-scroll-custom/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.html %}
+{% include code-snippet/multiselect/virtual-scroll-custom/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-filter" %}
+{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-custom" %}
 {% endif %}
 
 ## Preselect values with Virtualization
@@ -230,26 +230,26 @@ The following sample shows the example for Preselect value with Virtualization.
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.ts %}
+{% include code-snippet/multiselect/virtual-scroll-preselect/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.html %}
+{% include code-snippet/multiselect/virtual-scroll-preselect/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-filter" %}
+{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-preselect" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.js %}
+{% include code-snippet/multiselect/virtual-scroll-preselect/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/multiselect/virtual-scroll-filter/index.html %}
+{% include code-snippet/multiselect/virtual-scroll-preselect/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-filter" %}
+{% previewsample "page.domainurl/code-snippet/multiselect/virtual-scroll-preselect" %}
 {% endif %}
 
