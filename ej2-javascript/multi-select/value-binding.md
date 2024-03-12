@@ -13,17 +13,6 @@ domainurl: ##DomainURL##
 
 Value binding in the EJ2 TypeScript MultiSelect control allows you to associate data values with each list item. This facilitates managing and retrieving selected values efficiently. The MultiSelect component provides flexibility in binding both primitive data types and complex objects.
 
-
-
-| Fields | Type | Description |
-|------|------|-------------|
-| text |  `string` | Specifies the display text of each list item. |
-| value |  `number or string` | Specifies the hidden data value mapped to each list item that should contain a unique value. |
-| groupBy |  `string` | Specifies the category under which the list item has to be grouped. |
-| iconCss |  `string` | Specifies the icon class of each list item. |
-
-> When binding complex data to the MultiSelect, fields should be mapped correctly. Otherwise, the selected item remains undefined.
-
 ## Primitive Data Types
 
 The MultiSelect component provides flexible binding capabilities for simple data types like strings and numbers. You can effortlessly bind local primitive data arrays, fetch and bind data from remote sources, and even custom data binding to suit specific requirements. Whether it's local data, remote data services, or custom data structures, the MultiSelect provides seamless integration, ensuring straightforward binding for primitive data types. Bind the value of primitive data to the [value](../api/multi-select/#value) property of the MultiSelect.
