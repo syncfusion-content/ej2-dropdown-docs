@@ -13,7 +13,7 @@ var multiObject = new ej.dropdowns.MultiSelect({
     dataSource: records,
     //map the appropriate columns to fields property
     fields: { value: 'id', text: 'text' },
-    //set the placeholder to DropDownList input
+    //set the placeholder to MultiSelect input
     placeholder:"Select an Item ",
     allowCustomValue: true,
     //set enableVirtualization property to true

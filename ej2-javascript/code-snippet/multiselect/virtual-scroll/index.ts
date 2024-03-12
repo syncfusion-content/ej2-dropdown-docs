@@ -1,6 +1,3 @@
-
-
-
 import { MultiSelect, VirtualScroll } from '@syncfusion/ej2-dropdowns';
 
 MultiSelect.Inject(VirtualScroll);
@@ -20,7 +17,7 @@ let MultiSelectObject: MultiSelect = new MultiSelect({
     dataSource: records,
     //map the appropriate columns to fields property
     fields: { value: 'id', text: 'text' },
-    //set the placeholder to DropDownList input
+    //set the placeholder to MultiSelect input
     placeholder:"Select an Item ",
     //set enableVirtualization property to true
     enableVirtualization: true,

@@ -38,7 +38,7 @@ let MultiSelectObject: MultiSelect = new MultiSelect({
     dataSource: records,
     //map the appropriate columns to fields property
     fields: { groupBy: 'group', text: 'text', value: 'id' },
-    //set the placeholder to DropDownList input
+    //set the placeholder to MultiSelect input
     placeholder:"Select an Item ",
     //set enableVirtualization property to true
     enableVirtualization: true,

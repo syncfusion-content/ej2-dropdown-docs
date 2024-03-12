@@ -16,7 +16,7 @@ let MultiSelectObject: DropDownList = new DropDownList({
     }),
     //map the appropriate columns to fields property
     fields: { text: 'OrderID', value: 'OrderID' },
-    //set the placeholder to DropDownList input
+    //set the placeholder to MultiSelect input
     placeholder:"Select an Item ",
     //set enableVirtualization property to true
     enableVirtualization: true,

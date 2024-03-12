@@ -23,7 +23,7 @@ let MultiSelectObject: MultiSelect = new MultiSelect({
     //set the placeholder to DropDownList input
     placeholder:"Select an Item ",
     value: ['id3', 'id20', 'id53'],
-    //set enableVirtualization property to true
+    //set enableVirtualization MultiSelect to true
     enableVirtualization: true,
     mode: 'Default',
     //set the height of the popup element
