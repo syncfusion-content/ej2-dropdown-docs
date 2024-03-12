@@ -1,9 +1,9 @@
-import { DropDownList } from '@syncfusion/ej2-dropdowns';
+import { AutoComplete } from '@syncfusion/ej2-dropdowns';
 
 let records: string[] = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12", "Item 13", "Item 14", "Item 15"];
 
 //initiates the component
-let dropObject: DropDownList = new DropDownList({
+let autoObject: AutoComplete = new AutoComplete({
     //bind the dataSorce property
     dataSource: records,
     placeholder:"Select an Item ",
@@ -13,7 +13,7 @@ let dropObject: DropDownList = new DropDownList({
 });
 
 //render the component
-dropObject.appendTo('#ddlelement');
+autoObject.appendTo('#ddlelement');
 
 
 

@@ -15,6 +15,7 @@ var multiObject = new ej.dropdowns.MultiSelect({
     fields: { value: 'id', text: 'text' },
     //set the placeholder to MultiSelect input
     placeholder:"Select an Item ",
+    allowObjectBinding: true,
     value: [{ id: 'id5', text: 'Item 5' }, { id: 'id7', text: 'Item 7' }, { id: 'id12', text: 'Item 12' }],
     mode: 'Default',
     //set the height of the popup element

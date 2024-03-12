@@ -1,4 +1,4 @@
-import { DropDownList } from '@syncfusion/ej2-dropdowns';
+import { ComboBox } from '@syncfusion/ej2-dropdowns';
 
 let records: { [key: string]: Object }[] = [];
 for (let i: number = 1; i <= 150; i++) {
@@ -10,7 +10,7 @@ for (let i: number = 1; i <= 150; i++) {
 }
 
 //initiates the component
-let dropObject: DropDownList = new DropDownList({
+let dropObject: ComboBox = new ComboBox({
     //bind the dataSorce property
     dataSource: records,
     //map the appropriate columns to fields property

@@ -1,7 +1,7 @@
 var records = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7", "Item 8", "Item 9", "Item 10", "Item 11", "Item 12", "Item 13", "Item 14", "Item 15"];
 
 //initiates the component
-var dropObject = new ej.dropdowns.DropDownList({
+var autoObject = new ej.dropdowns.AutoComplete({
     //bind the dataSorce property
     dataSource: records,
     placeholder:"Select an Item ",
@@ -11,5 +11,5 @@ var dropObject = new ej.dropdowns.DropDownList({
 });
 
 //render the component
-dropObject.appendTo('#ddlelement');
+autoObject.appendTo('#ddlelement');
 
