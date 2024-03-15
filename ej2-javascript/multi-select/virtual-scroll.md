@@ -114,6 +114,7 @@ The following sample shows the example for Customizing items count in virtualiza
 {% endhighlight %}
 {% endtabs %}
 
+{% endif %}
 
 ## Grouping with virtualization
 
