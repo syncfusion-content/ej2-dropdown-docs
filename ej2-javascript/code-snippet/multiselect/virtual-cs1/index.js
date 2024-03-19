@@ -1,13 +1,14 @@
  var data = new ej.data.DataManager({
-    url: 'https://js.syncfusion.com/demos/ejServices/Wcf/Northwind.svc/',
-    crossDomain: true
+    url: 'https://services.odata.org/V4/Northwind/Northwind.svc/Customers',
+            adaptor: new ej.data.ODataV4Adaptor(),
+            crossDomain: true
 });
 //initiates the component
 let mulObject = new ej.dropdowns.MultiSelect({
     // bind the DataManager instance to dataSource property
         dataSource: data,
         // bind the Query instance to query property
-        query: new ej.data.Query().from('Customers').select('ContactName').take(7),
+        query: new ej.data.Query().select(['ContactName']),
         // map the appropriate columns to fields property
         fields: { text: 'ContactName', value: 'ContactName' },
          // set the placeholder to MultiSelect input element
