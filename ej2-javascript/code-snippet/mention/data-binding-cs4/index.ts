@@ -9,7 +9,7 @@ import { Query, DataManager, WebApiAdaptor } from '@syncfusion/ej2-data';
 let mentionObject: Mention = new Mention({
     //bind the DataManager instance to dataSource property
     dataSource: new DataManager({
-        url: 'https://ej2services.syncfusion.com/production/web-services/api/Employees',
+        url: 'https://services.syncfusion.com/js/production/api/Employees',
         adaptor: new WebApiAdaptor,
         crossDomain: true
     }),

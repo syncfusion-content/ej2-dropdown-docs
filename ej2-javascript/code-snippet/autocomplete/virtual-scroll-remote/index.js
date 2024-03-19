@@ -3,7 +3,7 @@
 var acObject = new ej.dropdowns.AutoComplete({
     //bind the dataSorce property
     dataSource:  new ej.data.DataManager({
-        url: 'https://ej2services.syncfusion.com/js/development/api/orders',
+        url: 'https://services.syncfusion.com/js/production/api/Orders',
         adaptor: new ej.data.WebApiAdaptor(),
         crossDomain: true
     }),

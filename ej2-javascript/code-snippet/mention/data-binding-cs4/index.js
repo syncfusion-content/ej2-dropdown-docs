@@ -2,7 +2,7 @@
 var mentionObj = new ej.dropdowns.Mention({
     //bind the data manager instance to dataSource property
     dataSource: new ej.data.DataManager({
-        url: 'https://ej2services.syncfusion.com/production/web-services/api/Employees',
+        url: 'https://services.syncfusion.com/js/production/api/Employees',
         adaptor: new ej.data.WebApiAdaptor(),
         crossDomain: true
     }),
